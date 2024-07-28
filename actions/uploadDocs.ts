@@ -1,6 +1,6 @@
 "use server"
 
-import generateId from "@/lib/utils";
+import { generateId } from "@/lib/utils";
 import { Session } from "./getSession";
 import { db } from "@/lib/db";
 import {
